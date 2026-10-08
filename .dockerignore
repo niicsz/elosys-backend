@@ -4,3 +4,4 @@ target/
 dados_tmp/
 reports/
 *.db
+node_modules

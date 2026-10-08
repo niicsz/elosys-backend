@@ -5,7 +5,7 @@ spring:
     virtual:
       enabled: true
   datasource:
-    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}?reWriteBatchedInserts=true
+    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}?reWriteBatchedInserts=true&sslmode=${DB_SSLMODE}&sslNegotiation=${DB_SSL_NEGOTIATION}
     username: ${DB_USER}
     password: ${DB_PASSWORD}
     hikari:

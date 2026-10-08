@@ -174,6 +174,7 @@ Todas são obrigatórias. O [`.env.example`](.env.example) traz os valores para 
 |---|---|---|
 | `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD` | `localhost`, `5432`, `elosys`, `elosys`, `elosys` | Postgres |
 | `DB_POOL_SIZE` | `20` | conexões no pool |
+| `DB_SSLMODE`, `DB_SSL_NEGOTIATION` | `disable`, `postgres` | TLS do Postgres; para um banco atrás de um router com TLS passthrough (OpenShift), `require` e `direct` |
 | `REDIS_HOST`, `REDIS_PORT` | `localhost`, `6379` | Redis |
 | `REDIS_USER`, `REDIS_PASSWORD` | vazias | autenticação do Redis (pode ficar vazia) |
 | `PORT` | `8080` | porta HTTP |
@@ -201,3 +202,21 @@ mvn test
 ```
 
 Cobrem regras de arquitetura (ArchUnit), normalização dos dados das fontes, resolução de identidade, parsers e regras de detecção, ciclos no grafo e léxico.
+
+## ☁️ Deploy
+
+| Peça | Onde |
+|---|---|
+| API (este repositório) e frontend | Railway, com deploy automático a cada push na `main` |
+| Redis | Railway, na rede privada do projeto |
+| Postgres 17 (~15 GB) | OpenShift, com volume de 60 GB e acesso externo por uma Route TLS passthrough |
+
+O Postgres fica atrás do router do OpenShift, que só encaminha TLS pelo SNI. Por isso a API conecta com `DB_SSLMODE=require` e `DB_SSL_NEGOTIATION=direct` na porta 443 (negociação TLS direta do Postgres 17, suportada pelo pgjdbc).
+
+A configuração do serviço no Railway é declarada em [`.railway/railway.ts`](.railway/railway.ts): fonte no GitHub, build pelo Dockerfile, healthcheck, política de restart e variáveis. Os segredos (`DB_PASSWORD`, `ELOSYS_ADMIN_TOKEN`, `ANTHROPIC_API_KEY`, `APIFY_TOKEN`) usam `preserve()`: o valor fica só no Railway e nunca no repositório. O `package.json` da raiz existe apenas para o SDK do Railway usado por esse arquivo.
+
+```bash
+npm install
+railway config plan    # mostra o que mudaria no Railway
+railway config apply
+```
