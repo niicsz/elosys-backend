@@ -115,9 +115,14 @@ Pré-requisitos: Java 25, Maven 3.9+ e Docker.
 ```bash
 docker compose up -d postgres redis
 
+cp .env.example .env            # ajuste o ELOSYS_ADMIN_TOKEN e as chaves
+set -a && source .env && set +a # exporta as variáveis no shell
+
 mvn -DskipTests package
-ELOSYS_ADMIN_TOKEN=troque-isto java -jar target/elosys-backend-0.1.0.jar   # http://localhost:8080
+java -jar target/elosys-backend-0.1.0.jar   # http://localhost:8080
 ```
+
+O `application.yml` não tem valores padrão: toda variável da tabela de [variáveis de ambiente](#variáveis-de-ambiente) precisa estar definida, mesmo que vazia, ou a aplicação não sobe.
 
 As migrações rodam na subida. Na base completa, a criação das materialized views leva uns 9 minutos na primeira vez.
 
@@ -163,16 +168,24 @@ curl -X POST localhost:8080/api/admin/jobs/rule-circular-donations \
 
 ### Variáveis de ambiente
 
-| Variável | Padrão | |
+Todas são obrigatórias. O [`.env.example`](.env.example) traz os valores para rodar local; as marcadas como "pode ficar vazia" desligam a funcionalidade correspondente.
+
+| Variável | Exemplo local | |
 |---|---|---|
 | `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD` | `localhost`, `5432`, `elosys`, `elosys`, `elosys` | Postgres |
+| `DB_POOL_SIZE` | `20` | conexões no pool |
 | `REDIS_HOST`, `REDIS_PORT` | `localhost`, `6379` | Redis |
+| `REDIS_USER`, `REDIS_PASSWORD` | vazias | autenticação do Redis (pode ficar vazia) |
+| `PORT` | `8080` | porta HTTP |
+| `ELOSYS_TMP_DIR`, `ELOSYS_REPORTS_DIR` | `dados_tmp`, `reports` | downloads e relatórios dos jobs |
 | `ELOSYS_CACHE_TTL` | `30m` | validade do cache |
-| `ELOSYS_ADMIN_TOKEN` | vazio (admin desligado) | token da API de jobs |
+| `ELOSYS_ADMIN_TOKEN` | `troque-isto` | token da API de jobs (vazia desliga o admin) |
 | `ELOSYS_ALLOWED_ORIGINS` | `http://localhost:4200` | CORS |
-| `ANTHROPIC_API_KEY` / `ANTHROPIC_MODEL` | — / `claude-haiku-4-5` | revisão por IA |
-| `APIFY_TOKEN` | — | coleta do X |
-| `ELOSYS_CURL_IMPERSONATE` | vazio | caminho do curl-impersonate |
+| `ANTHROPIC_API_KEY` | vazia | revisão por IA (pode ficar vazia) |
+| `ANTHROPIC_MODEL`, `ANTHROPIC_TIMEOUT` | `claude-haiku-4-5`, `60s` | modelo e timeout por chamada |
+| `APIFY_TOKEN` | vazia | coleta do X (pode ficar vazia) |
+| `APIFY_ACTOR` | `kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest` | actor da Apify |
+| `ELOSYS_CURL_IMPERSONATE` | vazia | caminho do curl-impersonate (pode ficar vazia) |
 
 ### Bloqueio do TSE
 

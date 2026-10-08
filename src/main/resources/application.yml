@@ -5,25 +5,25 @@ spring:
     virtual:
       enabled: true
   datasource:
-    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:elosys}?reWriteBatchedInserts=true
-    username: ${DB_USER:elosys}
-    password: ${DB_PASSWORD:elosys}
+    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}?reWriteBatchedInserts=true
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
     hikari:
-      maximum-pool-size: ${DB_POOL_SIZE:20}
+      maximum-pool-size: ${DB_POOL_SIZE}
   flyway:
     enabled: true
   data:
     redis:
-      host: ${REDIS_HOST:localhost}
-      port: ${REDIS_PORT:6379}
-      username: ${REDIS_USER:}
-      password: ${REDIS_PASSWORD:}
+      host: ${REDIS_HOST}
+      port: ${REDIS_PORT}
+      username: ${REDIS_USER}
+      password: ${REDIS_PASSWORD}
       timeout: 500ms
   jackson:
     default-property-inclusion: non_null
 
 server:
-  port: ${PORT:8080}
+  port: ${PORT}
   shutdown: graceful
   error:
     include-message: never
@@ -46,25 +46,25 @@ management:
         enabled: true
 
 elosys:
-  tmp-dir: ${ELOSYS_TMP_DIR:dados_tmp}
-  reports-dir: ${ELOSYS_REPORTS_DIR:reports}
-  admin-token: ${ELOSYS_ADMIN_TOKEN:}
-  allowed-origins: ${ELOSYS_ALLOWED_ORIGINS:http://localhost:4200}
+  tmp-dir: ${ELOSYS_TMP_DIR}
+  reports-dir: ${ELOSYS_REPORTS_DIR}
+  admin-token: ${ELOSYS_ADMIN_TOKEN}
+  allowed-origins: ${ELOSYS_ALLOWED_ORIGINS}
   cache:
-    default-ttl: ${ELOSYS_CACHE_TTL:30m}
+    default-ttl: ${ELOSYS_CACHE_TTL}
     key-prefix: "elosys:v1:"
   download:
-    curl-impersonate-path: ${ELOSYS_CURL_IMPERSONATE:}
+    curl-impersonate-path: ${ELOSYS_CURL_IMPERSONATE}
     connect-timeout: 30s
     read-timeout: 300s
   llm:
-    api-key: ${ANTHROPIC_API_KEY:}
-    model: ${ANTHROPIC_MODEL:claude-haiku-4-5}
-    timeout: ${ANTHROPIC_TIMEOUT:60s}
+    api-key: ${ANTHROPIC_API_KEY}
+    model: ${ANTHROPIC_MODEL}
+    timeout: ${ANTHROPIC_TIMEOUT}
     max-tokens: 1024
   apify:
-    token: ${APIFY_TOKEN:}
-    actor: ${APIFY_ACTOR:kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest}
+    token: ${APIFY_TOKEN}
+    actor: ${APIFY_ACTOR}
     base-url: https://api.apify.com/v2
 
 resilience:
