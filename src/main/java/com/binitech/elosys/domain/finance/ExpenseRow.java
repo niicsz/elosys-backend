@@ -1,0 +1,25 @@
+package com.binitech.elosys.domain.finance;
+
+public record ExpenseRow(
+    String cnpj,
+    String tseCandidacyId,
+    int year,
+    String tseExpenseId,
+    String documentType,
+    String documentNumber,
+    String expenseDate,
+    Long amountCents,
+    String origin,
+    String description,
+    String supplierCpfCnpj,
+    String supplierName,
+    String supplierNameRfb,
+    String supplierType,
+    String supplierCnae,
+    String supplierState,
+    String supplierMunicipality,
+    String supplierTseCandidacyId,
+    String supplierPartyAbbr,
+    Long supplierPersonId,
+    Long supplierCompanyId,
+    long provenanceId) {}

@@ -1,0 +1,2445 @@
+{
+ "source": "elosys/social/lexicon.py (Yuri Rousseff, https://github.com/YuriRDev/elosys)",
+ "categories": [
+  {
+   "category": "lgbtfobia",
+   "terms": [
+    {
+     "term": "viado",
+     "weight": "media",
+     "note": "insulto comum; usado tb por pessoas LGBT de forma reapropriada"
+    },
+    {
+     "term": "veado",
+     "weight": "media",
+     "note": "grafia alternativa; tb o animal — DeepSeek decide"
+    },
+    {
+     "term": "viadinho",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "viadão",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "viadagem",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "bicha",
+     "weight": "media",
+     "note": "insulto; reapropriado na comunidade; em PT-PT = fila"
+    },
+    {
+     "term": "bicha louca",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "bichinha",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "boiola",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "boiolinha",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "baitola",
+     "weight": "alta",
+     "note": "nordestino p/ homem gay"
+    },
+    {
+     "term": "bajitola",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "frango",
+     "weight": "baixa",
+     "note": "gíria p/ gay passivo; tb comida/futebol"
+    },
+    {
+     "term": "maricas",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "maricão",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "fresco",
+     "weight": "baixa",
+     "note": "'homem fresco' = afeminado; tb temperatura/comida"
+    },
+    {
+     "term": "frescura",
+     "weight": "baixa",
+     "note": "context: 'frescura de viado'"
+    },
+    {
+     "term": "fruta",
+     "weight": "baixa",
+     "note": "gíria p/ gay; tb comida"
+    },
+    {
+     "term": "traveco",
+     "weight": "alta",
+     "note": "transfóbico"
+    },
+    {
+     "term": "traveca",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "tranny",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "he-she",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "aquilo ali",
+     "weight": "baixa",
+     "note": "usado p/ desumanizar pessoa trans ('aquilo', 'isso')"
+    },
+    {
+     "term": "sapatão",
+     "weight": "media",
+     "note": "lésbica; reapropriado tb"
+    },
+    {
+     "term": "sapata",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "caminhoneira",
+     "weight": "media",
+     "note": "lésbica masculinizada (pej.)"
+    },
+    {
+     "term": "machorra",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "desviado",
+     "weight": "media",
+     "note": "'sexualmente desviado'"
+    },
+    {
+     "term": "aberração",
+     "weight": "media",
+     "note": "context: pessoa LGBT como 'aberração'"
+    },
+    {
+     "term": "anormal",
+     "weight": "baixa",
+     "note": "context: 'não é normal'"
+    },
+    {
+     "term": "doentio",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "promíscuo",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "sodomita",
+     "weight": "alta",
+     "note": "religioso-pejorativo"
+    },
+    {
+     "term": "pederasta",
+     "weight": "alta",
+     "note": "usado como equivalente pejorativo de homossexual"
+    },
+    {
+     "term": "homossexualismo",
+     "weight": "media",
+     "note": "sufixo -ismo (patologização); termo correto é homossexualidade"
+    },
+    {
+     "term": "opção sexual",
+     "weight": "media",
+     "note": "dogwhistle: sugere escolha; correto é orientação"
+    },
+    {
+     "term": "ideologia de gênero",
+     "weight": "media",
+     "note": "dogwhistle anti-LGBT"
+    },
+    {
+     "term": "kit gay",
+     "weight": "alta",
+     "note": "desinformação (Bolsonaro 2018)"
+    },
+    {
+     "term": "mamadeira de piroca",
+     "weight": "alta",
+     "note": "hoax de campanha"
+    },
+    {
+     "term": "cura gay",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "heterofobia",
+     "weight": "media",
+     "note": "usado p/ minimizar LGBTfobia"
+    },
+    {
+     "term": "lgbtismo",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "generismo",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "doutrinação de gênero",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "lacração",
+     "weight": "baixa",
+     "note": "'pauta de lacração' — dogwhistle p/ pauta LGBT/racial"
+    },
+    {
+     "term": "agenda gay",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "lobby gay",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "ditadura gay",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "família tradicional",
+     "weight": "baixa",
+     "note": "dogwhistle quando usado p/ excluir; muito amplo"
+    },
+    {
+     "term": "princesinho",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "mulherzinha",
+     "weight": "media",
+     "note": "p/ homem, feminilizante-pejorativo"
+    },
+    {
+     "term": "homem de verdade",
+     "weight": "baixa",
+     "note": "context: cobrança de masculinidade"
+    },
+    {
+     "term": "não é homem",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "virou mulher",
+     "weight": "baixa",
+     "note": null
+    }
+   ]
+  },
+  {
+   "category": "racismo_negros",
+   "terms": [
+    {
+     "term": "macaco",
+     "weight": "media",
+     "note": "injúria racial clássica; tb o animal / 'macaco de auditório'"
+    },
+    {
+     "term": "macaca",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "macaquice",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "macacada",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "volta pra senzala",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "senzala",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "crioulo",
+     "weight": "alta",
+     "note": "injúria racial"
+    },
+    {
+     "term": "criolo",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "neguinho",
+     "weight": "baixa",
+     "note": "muito usado como 'fulano/qualquer um'; racista em certos usos"
+    },
+    {
+     "term": "nega maluca",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "preto safado",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "preto fedido",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "preto imundo",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "serviço de preto",
+     "weight": "alta",
+     "note": "expressão racista"
+    },
+    {
+     "term": "coisa de preto",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "programa de índio",
+     "weight": "media",
+     "note": "racismo anti-indígena, mas classificado aqui por uso comum"
+    },
+    {
+     "term": "a coisa tá preta",
+     "weight": "baixa",
+     "note": "expressão idiomática de origem racista; muito ampla"
+    },
+    {
+     "term": "cabelo ruim",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "cabelo de bombril",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "cabelo de picumã",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "pixaim",
+     "weight": "baixa",
+     "note": "termo p/ cabelo crespo; pej. em certos usos, reapropriado em outros"
+    },
+    {
+     "term": "nariz de tomada",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "beiçola",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "beiçudo",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "tição",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "carvãozinho",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "urubu",
+     "weight": "baixa",
+     "note": "usado p/ ofender pessoa negra; tb o animal"
+    },
+    {
+     "term": "raça inferior",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "sub-raça",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "subraça",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "raça maldita",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "mulata",
+     "weight": "baixa",
+     "note": "termo controverso; 'mulata tipo exportação' é pej."
+    },
+    {
+     "term": "mulata tipo exportação",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "denegrir",
+     "weight": "baixa",
+     "note": "etimologia debatida; muito amplo"
+    },
+    {
+     "term": "escurinho",
+     "weight": "baixa",
+     "note": "diminutivo condescendente"
+    },
+    {
+     "term": "da cor do pecado",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "café com leite",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "cota é esmola",
+     "weight": "media",
+     "note": "discurso anti-cotas"
+    },
+    {
+     "term": "racismo reverso",
+     "weight": "media",
+     "note": "conceito usado p/ minimizar racismo"
+    },
+    {
+     "term": "racismo às avessas",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "vitimismo",
+     "weight": "baixa",
+     "note": "usado p/ deslegitimar denúncia de racismo; muito amplo"
+    },
+    {
+     "term": "mimimi",
+     "weight": "baixa",
+     "note": "idem; amplíssimo"
+    },
+    {
+     "term": "playing the race card",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "não sou racista mas",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "lugar de preto",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "quando eu era racista",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "branqueamento",
+     "weight": "baixa",
+     "note": "context histórico"
+    },
+    {
+     "term": "escravos tinham comida e teto",
+     "weight": "alta",
+     "note": "revisionismo escravista"
+    },
+    {
+     "term": "escravidão não foi tão ruim",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "deviam agradecer",
+     "weight": "media",
+     "note": "context: 'negros deviam agradecer a escravidão'"
+    }
+   ]
+  },
+  {
+   "category": "racismo_indigenas",
+   "terms": [
+    {
+     "term": "índio preguiçoso",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "muita terra pra pouco índio",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "índio não é gente",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "bugre",
+     "weight": "alta",
+     "note": "termo racista p/ indígena"
+    },
+    {
+     "term": "bugres",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "silvícola",
+     "weight": "media",
+     "note": "termo do antigo Estatuto do Índio, hoje pej."
+    },
+    {
+     "term": "pele-vermelha",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "índio de verdade",
+     "weight": "media",
+     "note": "denialismo: 'não é índio de verdade porque usa celular'"
+    },
+    {
+     "term": "índio de shopping",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "índio aculturado",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "farsa indígena",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "índio de mentira",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "demarcação é bandidagem",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "cheiro de índio",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "selvagem",
+     "weight": "baixa",
+     "note": "context: povos indígenas como 'selvagens'"
+    },
+    {
+     "term": "primitivo",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "tribo atrasada",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "pardo fake",
+     "weight": "media",
+     "note": "acusação genérica de fraude racial em cotas"
+    },
+    {
+     "term": "autodeclaração fraudulenta",
+     "weight": "baixa",
+     "note": null
+    }
+   ]
+  },
+  {
+   "category": "racismo_asiaticos",
+   "terms": [
+    {
+     "term": "japa",
+     "weight": "baixa",
+     "note": "muito usado sem intenção pej.; ofensivo em certos usos"
+    },
+    {
+     "term": "olho puxado",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "olho de china",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "come cachorro",
+     "weight": "alta",
+     "note": "estereótipo racista anti-asiático"
+    },
+    {
+     "term": "come morcego",
+     "weight": "alta",
+     "note": "estereótipo pós-covid"
+    },
+    {
+     "term": "trouxe o vírus",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "vírus chinês",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "gripezinha chinesa",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "xing ling",
+     "weight": "baixa",
+     "note": "produto de má qualidade; usado tb contra pessoas"
+    },
+    {
+     "term": "xing-ling",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "pastelzinho",
+     "weight": "media",
+     "note": "context: contra descendente de asiático"
+    },
+    {
+     "term": "amarelo",
+     "weight": "baixa",
+     "note": "context racial"
+    },
+    {
+     "term": "chinês safado",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "praga amarela",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "perigo amarelo",
+     "weight": "alta",
+     "note": null
+    }
+   ]
+  },
+  {
+   "category": "ciganos",
+   "terms": [
+    {
+     "term": "cigano ladrão",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "cigano do dinheiro",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "trapaça de cigano",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "roubar que nem cigano",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "não seja cigano",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "coisa de cigano",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "cigano safado",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "acampamento cigano",
+     "weight": "baixa",
+     "note": "context"
+    }
+   ]
+  },
+  {
+   "category": "antissemitismo",
+   "terms": [
+    {
+     "term": "judeu safado",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "judeu sovina",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "mão de vaca que nem judeu",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "economizar que nem judeu",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "nariz de judeu",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "judiaria",
+     "weight": "baixa",
+     "note": "etimologia; muito amplo"
+    },
+    {
+     "term": "lobby judeu",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "lobby sionista",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "poder judaico",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "banqueiros globalistas",
+     "weight": "media",
+     "note": "dogwhistle antissemita"
+    },
+    {
+     "term": "globalismo",
+     "weight": "baixa",
+     "note": "dogwhistle quando ligado a 'elite judaica'; amplo"
+    },
+    {
+     "term": "elite globalista",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "nova ordem mundial",
+     "weight": "baixa",
+     "note": "conspiração; amplo"
+    },
+    {
+     "term": "rothschild",
+     "weight": "media",
+     "note": "conspiração antissemita"
+    },
+    {
+     "term": "soros comprou",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "dinheiro do Soros",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "povo escolhido",
+     "weight": "baixa",
+     "note": "usado com ironia antissemita"
+    },
+    {
+     "term": "câmara de gás",
+     "weight": "alta",
+     "note": "trivialização do Holocausto"
+    },
+    {
+     "term": "forno crematório",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "hitler tinha razão",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "hitler estava certo",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "faltou gás",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "holocausto foi mentira",
+     "weight": "alta",
+     "note": "negacionismo"
+    },
+    {
+     "term": "holocausto não existiu",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "6 milhões é mentira",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "mito do holocausto",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "sinagoga de satanás",
+     "weight": "alta",
+     "note": null
+    }
+   ]
+  },
+  {
+   "category": "intolerancia_religiosa",
+   "terms": [
+    {
+     "term": "macumbeiro",
+     "weight": "media",
+     "note": "pej. contra religiões afro; reapropriado tb"
+    },
+    {
+     "term": "macumba",
+     "weight": "baixa",
+     "note": "termo genérico, pej. em muitos usos"
+    },
+    {
+     "term": "trabalho de macumba",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "chute na macumba",
+     "weight": "alta",
+     "note": "referência a agressão real a terreiros"
+    },
+    {
+     "term": "adorador do diabo",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "culto ao demônio",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "coisa do capeta",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "encosto",
+     "weight": "baixa",
+     "note": "context religioso pej."
+    },
+    {
+     "term": "pai de santo charlatão",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "terreiro de macumba",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "religião de preto",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "feitiçaria",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "bruxaria",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "seita",
+     "weight": "baixa",
+     "note": "context: 'seita' p/ religião minoritária"
+    },
+    {
+     "term": "muçulmano terrorista",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "islâmico terrorista",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "bomba no colete",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "vai explodir",
+     "weight": "baixa",
+     "note": "context islamofóbico"
+    },
+    {
+     "term": "jihadista",
+     "weight": "baixa",
+     "note": "context"
+    },
+    {
+     "term": "religião do ódio",
+     "weight": "media",
+     "note": "context: sobre o Islã"
+    },
+    {
+     "term": "crente burro",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "evangélico burro",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "evangélico fanático",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "bíblia embaixo do braço",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "carola",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "beato",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "papa-hóstia",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "comedor de hóstia",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "fanático religioso",
+     "weight": "baixa",
+     "note": "muito amplo"
+    },
+    {
+     "term": "talibã evangélico",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "bancada da bíblia",
+     "weight": "baixa",
+     "note": "termo jornalístico neutro; pej. em certos usos"
+    }
+   ]
+  },
+  {
+   "category": "misoginia",
+   "terms": [
+    {
+     "term": "vagabunda",
+     "weight": "media",
+     "note": "insulto de gênero quando dirigido a mulher"
+    },
+    {
+     "term": "vagaba",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "piranha",
+     "weight": "media",
+     "note": "tb o peixe — DeepSeek decide"
+    },
+    {
+     "term": "piriguete",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "vaca",
+     "weight": "baixa",
+     "note": "insulto; tb o animal / gordofobia"
+    },
+    {
+     "term": "cadela",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "biscate",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "rapariga",
+     "weight": "media",
+     "note": "no NE = prostituta (pej.)"
+    },
+    {
+     "term": "quenga",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "quengona",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "puta",
+     "weight": "baixa",
+     "note": "palavrão comum; misógino quando dirigido a mulher"
+    },
+    {
+     "term": "putinha",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "mulher da vida",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "roda bolsa",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "galinha",
+     "weight": "baixa",
+     "note": "context; tb o animal"
+    },
+    {
+     "term": "lugar de mulher é na cozinha",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "volta pro fogão",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "vai lavar louça",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "vai passar pano",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "saiu da cozinha",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "mal comida",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "precisa de macho",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "precisando de rola",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "tá de TPM",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "histérica",
+     "weight": "media",
+     "note": "context de deslegitimar mulher"
+    },
+    {
+     "term": "descontrolada",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "surtada",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "louca",
+     "weight": "baixa",
+     "note": "context: chamar mulher de louca p/ deslegitimar; amplo"
+    },
+    {
+     "term": "sexo frágil",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "mulher no volante",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "feminazi",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "feminismo é câncer",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "feminismo é lixo",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "ideologia feminista",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "vitimismo feminino",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "mimizenta",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "presidenta",
+     "weight": "baixa",
+     "note": "usado como chacota gramatical de gênero"
+    },
+    {
+     "term": "ficou feia",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "baranga",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "bagulho",
+     "weight": "baixa",
+     "note": "context: aparência de mulher"
+    },
+    {
+     "term": "canhão",
+     "weight": "media",
+     "note": "pej. p/ aparência de mulher"
+    },
+    {
+     "term": "dromedária",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "não merece ser estuprada",
+     "weight": "alta",
+     "note": "padrão de fala real (Bolsonaro/Maria do Rosário)"
+    },
+    {
+     "term": "nem se pagasse",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "fraquejei",
+     "weight": "media",
+     "note": "'fraquejei e veio mulher' — citação real"
+    },
+    {
+     "term": "cota de gênero",
+     "weight": "baixa",
+     "note": "discurso contra; amplo"
+    },
+    {
+     "term": "solteirona",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "encalhada",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "ficou pra titia",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "mãe solteira",
+     "weight": "baixa",
+     "note": "context de julgamento moral"
+    },
+    {
+     "term": "periquita",
+     "weight": "baixa",
+     "note": "gíria genital; context"
+    },
+    {
+     "term": "aborteira",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "assassina de bebês",
+     "weight": "media",
+     "note": "context: sobre mulheres / aborto"
+    }
+   ]
+  },
+  {
+   "category": "capacitismo",
+   "terms": [
+    {
+     "term": "retardado",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "retardada",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "retardo mental",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "mongoloide",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "mongolóide",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "mongol",
+     "weight": "media",
+     "note": "tb gentílico da Mongólia"
+    },
+    {
+     "term": "síndrome de down",
+     "weight": "baixa",
+     "note": "ofensivo só quando usado como xingamento"
+    },
+    {
+     "term": "downzinho",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "tem down",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "débil mental",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "débil",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "tantã",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "lelé da cuca",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "avariado",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "com defeito de fábrica",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "aleijado",
+     "weight": "media",
+     "note": "pej.; tb uso descritivo antigo"
+    },
+    {
+     "term": "aleijada",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "manco",
+     "weight": "baixa",
+     "note": "tb verbo"
+    },
+    {
+     "term": "coxo",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "perneta",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "maneta",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "zarolho",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "caolho",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "cego que não enxerga",
+     "weight": "baixa",
+     "note": "context: metáfora ofensiva"
+    },
+    {
+     "term": "surdo que não escuta",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "fala com a parede",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "mudo",
+     "weight": "baixa",
+     "note": "context"
+    },
+    {
+     "term": "gagueja",
+     "weight": "baixa",
+     "note": "context de zombaria"
+    },
+    {
+     "term": "autista",
+     "weight": "baixa",
+     "note": "usado como xingamento; muito comum online"
+    },
+    {
+     "term": "tá no espectro",
+     "weight": "media",
+     "note": "zombaria"
+    },
+    {
+     "term": "toma remédio tarja preta",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "tomou lítio",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "precisa se internar",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "hospício",
+     "weight": "baixa",
+     "note": "context: 'devia estar no hospício'"
+    },
+    {
+     "term": "manicômio",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "camisa de força",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "doente mental",
+     "weight": "media",
+     "note": "usado como insulto"
+    },
+    {
+     "term": "psicopata",
+     "weight": "baixa",
+     "note": "clínico; usado como insulto"
+    },
+    {
+     "term": "esquizofrênico",
+     "weight": "baixa",
+     "note": "usado como insulto"
+    },
+    {
+     "term": "bipolar",
+     "weight": "baixa",
+     "note": "usado como insulto ('governo bipolar')"
+    },
+    {
+     "term": "surto psicótico",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "anão",
+     "weight": "baixa",
+     "note": "pessoa com nanismo; tb uso figurado ('anão moral')"
+    },
+    {
+     "term": "anã",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "nanico",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "baixinho complexado",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "napoleão",
+     "weight": "baixa",
+     "note": "'complexo de napoleão'"
+    },
+    {
+     "term": "gordo e feio",
+     "weight": "baixa",
+     "note": null
+    }
+   ]
+  },
+  {
+   "category": "xenofobia",
+   "terms": [
+    {
+     "term": "volta pro seu país",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "vai pra Venezuela",
+     "weight": "media",
+     "note": "tb crítica política legítima; DeepSeek decide"
+    },
+    {
+     "term": "vai pra Cuba",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "vai pra Coreia do Norte",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "venezuelano safado",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "venezuelano vagabundo",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "invasão venezuelana",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "eles vêm roubar emprego",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "imigrante traz doença",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "fecha a fronteira pra essa gente",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "boliviano explorado",
+     "weight": "baixa",
+     "note": "context"
+    },
+    {
+     "term": "bolita",
+     "weight": "alta",
+     "note": "pej. p/ boliviano"
+    },
+    {
+     "term": "bugre paraguaio",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "produto paraguaio",
+     "weight": "baixa",
+     "note": "= falsificado; usado tb contra pessoas"
+    },
+    {
+     "term": "muambeiro",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "gringo folgado",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "carcamano",
+     "weight": "media",
+     "note": "pej. p/ italiano (arcaico)"
+    },
+    {
+     "term": "turco da prestação",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "polaca",
+     "weight": "baixa",
+     "note": "= prostituta (context histórico da imigração)"
+    },
+    {
+     "term": "haitiano",
+     "weight": "baixa",
+     "note": "context de ataque"
+    },
+    {
+     "term": "refugiado é problema",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "não é bem-vindo aqui",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "raça estrangeira",
+     "weight": "alta",
+     "note": null
+    }
+   ]
+  },
+  {
+   "category": "regionalismo",
+   "terms": [
+    {
+     "term": "paraíba",
+     "weight": "baixa",
+     "note": "em SP, pej. p/ nordestino; tb o estado"
+    },
+    {
+     "term": "cabeça chata",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "cabeça de melão",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "nordestino burro",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "nordestino preguiçoso",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "baiano preguiçoso",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "baianada",
+     "weight": "alta",
+     "note": "'fazer uma baianada' = trapalhada"
+    },
+    {
+     "term": "fazer uma baianada",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "culpa do Nordeste",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "o Nordeste elegeu",
+     "weight": "baixa",
+     "note": "context de responsabilização coletiva"
+    },
+    {
+     "term": "bolsa esmola do Nordeste",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "gado do Nordeste",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "nordeste atrasado",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "seca da miséria",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "come farinha",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "pau de arara",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "retirante",
+     "weight": "baixa",
+     "note": "context pej."
+    },
+    {
+     "term": "flagelado",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "o Sul é meu país",
+     "weight": "media",
+     "note": "separatismo"
+    },
+    {
+     "term": "república de Curitiba",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "separa o Sul",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "nordeste não é Brasil",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "deviam se separar",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "carioca malandro",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "paulista arrogante",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "mineiro come quieto",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "bicho do mato",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "jeca",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "jeca tatu",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "caipira ignorante",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "roceiro",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "matuto",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "tabaréu",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "pé vermelho",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "pé rapado",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "brega",
+     "weight": "baixa",
+     "note": "context: cultura nordestina como 'brega'"
+    }
+   ]
+  },
+  {
+   "category": "aporofobia",
+   "terms": [
+    {
+     "term": "favelado",
+     "weight": "media",
+     "note": "pej. quando usado como classe/insulto"
+    },
+    {
+     "term": "favelada",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "gentinha",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "gentalha",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "ralé",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "raia miúda",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "escória",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "plebe",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "maloqueiro",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "pé de chinelo",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "descamisado",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "bolsa preguiça",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "bolsa esmola",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "bolsa vagabundo",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "vive às custas do Estado",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "parasita do Estado",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "não quer trabalhar",
+     "weight": "baixa",
+     "note": "context: pobres como preguiçosos; amplo"
+    },
+    {
+     "term": "prefere o auxílio",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "pobre não sabe votar",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "voto de cabresto",
+     "weight": "baixa",
+     "note": "termo analítico; pej. em certos usos"
+    },
+    {
+     "term": "curral eleitoral",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "gado",
+     "weight": "baixa",
+     "note": "'gado' político; desumanizante mas amplíssimo"
+    },
+    {
+     "term": "povão ignorante",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "burrice do povo",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "pobre de direita é como",
+     "weight": "baixa",
+     "note": "context de deboche de classe"
+    },
+    {
+     "term": "mendigo",
+     "weight": "baixa",
+     "note": "context de insulto"
+    },
+    {
+     "term": "morador de rua é vagabundo",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "higienização",
+     "weight": "baixa",
+     "note": "context: remoção de pop. de rua"
+    },
+    {
+     "term": "esses pobres",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "classe C fedida",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "aeroporto virou rodoviária",
+     "weight": "media",
+     "note": "deboche classista"
+    },
+    {
+     "term": "shopping de pobre",
+     "weight": "media",
+     "note": null
+    }
+   ]
+  },
+  {
+   "category": "gordofobia",
+   "terms": [
+    {
+     "term": "baleia",
+     "weight": "media",
+     "note": "insulto; tb o animal"
+    },
+    {
+     "term": "baleia franca",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "hipopótamo",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "elefanta",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "foca",
+     "weight": "baixa",
+     "note": "context de aparência; tb o animal"
+    },
+    {
+     "term": "gorda nojenta",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "gordo nojento",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "gorda porca",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "bola de banha",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "banha ambulante",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "toucinho",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "rolha de poço",
+     "weight": "media",
+     "note": "baixo e gordo"
+    },
+    {
+     "term": "parece grávida",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "buchudo",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "pança de chope",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "barril",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "planeta",
+     "weight": "baixa",
+     "note": "context: 'tem gravidade própria'"
+    },
+    {
+     "term": "come igual a um porco",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "obeso mórbido",
+     "weight": "baixa",
+     "note": "clínico; ofensivo como insulto"
+    },
+    {
+     "term": "vai estourar",
+     "weight": "baixa",
+     "note": null
+    }
+   ]
+  },
+  {
+   "category": "etarismo_saude",
+   "terms": [
+    {
+     "term": "velho caduco",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "véio gagá",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "caquético",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "múmia",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "fóssil",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "jurássico",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "dinossauro",
+     "weight": "baixa",
+     "note": "context: 'dinossauro da política' — amplo"
+    },
+    {
+     "term": "data de validade vencida",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "já era",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "cheiro de velho",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "senil",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "gagá",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "demente",
+     "weight": "baixa",
+     "note": "context de insulto"
+    },
+    {
+     "term": "aposenta essa múmia",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "vai jogar dominó",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "peça de museu",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "aidético",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "tem aids",
+     "weight": "media",
+     "note": "context de ataque"
+    },
+    {
+     "term": "cara de tuberculoso",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "leproso",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "lázaro",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "pestilento",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "peste ambulante",
+     "weight": "media",
+     "note": null
+    }
+   ]
+  },
+  {
+   "category": "desumanizacao",
+   "terms": [
+    {
+     "term": "verme",
+     "weight": "media",
+     "note": "'esses vermes'; tb uso brando"
+    },
+    {
+     "term": "vermes",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "raça de víboras",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "cobra criada",
+     "weight": "baixa",
+     "note": null
+    },
+    {
+     "term": "ratazana",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "rato imundo",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "barata",
+     "weight": "baixa",
+     "note": "context: 'esmagar como barata'"
+    },
+    {
+     "term": "esmagar como barata",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "praga",
+     "weight": "baixa",
+     "note": "amplo"
+    },
+    {
+     "term": "peste",
+     "weight": "baixa",
+     "note": "amplo"
+    },
+    {
+     "term": "parasita",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "sanguessuga",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "lixo humano",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "lixo da sociedade",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "escória da humanidade",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "esterco",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "estrume",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "câncer da sociedade",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "tumor social",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "erva daninha",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "aberração da natureza",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "abominação",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "sub-humano",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "subumano",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "raça maldita",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "não são gente",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "não merecem viver",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "deviam ser exterminados",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "limpeza social",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "faxina étnica",
+     "weight": "alta",
+     "note": null
+    },
+    {
+     "term": "bandido bom é bandido morto",
+     "weight": "baixa",
+     "note": "slogan comum; context"
+    },
+    {
+     "term": "tinha que morrer",
+     "weight": "baixa",
+     "note": "amplo; context"
+    },
+    {
+     "term": "merecia morrer",
+     "weight": "media",
+     "note": null
+    },
+    {
+     "term": "bala na cabeça",
+     "weight": "baixa",
+     "note": "context"
+    },
+    {
+     "term": "devia tomar um tiro",
+     "weight": "media",
+     "note": null
+    }
+   ]
+  }
+ ]
+}

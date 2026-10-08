@@ -1,0 +1,77 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: elosys-postgres
+    shm_size: 1g
+    environment:
+      POSTGRES_DB: elosys
+      POSTGRES_USER: elosys
+      POSTGRES_PASSWORD: elosys
+    command:
+      - postgres
+      - -c
+      - shared_buffers=1GB
+      - -c
+      - work_mem=64MB
+      - -c
+      - maintenance_work_mem=1GB
+      - -c
+      - max_wal_size=8GB
+      - -c
+      - checkpoint_timeout=15min
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U elosys -d elosys"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  redis:
+    image: redis:7
+    container_name: elosys-redis
+    command: ["redis-server", "--maxmemory", "512mb", "--maxmemory-policy", "allkeys-lru"]
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  app:
+    build: .
+    container_name: elosys-backend
+    profiles: ["app"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      REDIS_HOST: redis
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      APIFY_TOKEN: ${APIFY_TOKEN:-}
+      ELOSYS_ADMIN_TOKEN: ${ELOSYS_ADMIN_TOKEN:-}
+    volumes:
+      - ./dados_tmp:/app/dados_tmp
+
+  web:
+    build: ../elosys-frontend
+    container_name: elosys-frontend
+    profiles: ["app"]
+    depends_on:
+      - app
+    ports:
+      - "4200:8080"
+    environment:
+      API_BASE: http://localhost:8080
+
+volumes:
+  postgres_data:

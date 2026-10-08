@@ -1,0 +1,6 @@
+target/
+.idea/
+*.iml
+dados_tmp/
+reports/
+*.db

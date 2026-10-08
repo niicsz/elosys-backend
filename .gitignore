@@ -1,0 +1,10 @@
+.claude/
+.idea/
+*.iml
+target/
+dados_tmp/
+reports/
+*.db
+*.db-shm
+*.db-wal
+.env

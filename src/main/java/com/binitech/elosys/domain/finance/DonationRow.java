@@ -1,0 +1,25 @@
+package com.binitech.elosys.domain.finance;
+
+public record DonationRow(
+    String cnpj,
+    String tseCandidacyId,
+    int year,
+    String tseReceiptId,
+    String receiptNumber,
+    String documentId,
+    String receiptDate,
+    Long amountCents,
+    String source,
+    String origin,
+    String species,
+    String donorCpfCnpj,
+    String donorName,
+    String donorNameRfb,
+    String donorCnae,
+    String donorState,
+    String donorMunicipality,
+    String donorTseCandidacyId,
+    String donorPartyAbbr,
+    Long donorPersonId,
+    Long donorCompanyId,
+    long provenanceId) {}
