@@ -1,5 +1,10 @@
 package com.binitech.elosys.config;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cache.Cache;
@@ -13,6 +18,7 @@ import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.serializer.GenericJacksonJsonRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializationContext;
+import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import tools.jackson.databind.jsontype.BasicPolymorphicTypeValidator;
 
@@ -32,16 +38,60 @@ public class RedisCacheConfig implements CachingConfigurer {
                 RedisSerializationContext.SerializationPair.fromSerializer(
                     new StringRedisSerializer()))
             .serializeValuesWith(
-                RedisSerializationContext.SerializationPair.fromSerializer(
-                    GenericJacksonJsonRedisSerializer.builder()
-                        .enableDefaultTyping(
-                            BasicPolymorphicTypeValidator.builder()
-                                .allowIfSubType("com.binitech.elosys.")
-                                .allowIfSubType("java.")
-                                .build())
-                        .build()))
+                RedisSerializationContext.SerializationPair.fromSerializer(valueSerializer()))
             .disableCachingNullValues();
     return RedisCacheManager.builder(connectionFactory).cacheDefaults(defaults).build();
+  }
+
+  static RedisSerializer<Object> valueSerializer() {
+    RedisSerializer<Object> json =
+        GenericJacksonJsonRedisSerializer.builder()
+            .enableDefaultTyping(
+                BasicPolymorphicTypeValidator.builder()
+                    .allowIfSubType("com.binitech.elosys.")
+                    .allowIfSubType("java.")
+                    .build())
+            .build();
+    return new RedisSerializer<>() {
+      @Override
+      public byte[] serialize(Object value) {
+        return json.serialize(mutableCopy(value));
+      }
+
+      @Override
+      public Object deserialize(byte[] bytes) {
+        return integersAsLongs(json.deserialize(bytes));
+      }
+    };
+  }
+
+  private static Object mutableCopy(Object value) {
+    if (value instanceof Map<?, ?> map) {
+      Map<Object, Object> copy = new LinkedHashMap<>();
+      map.forEach((k, v) -> copy.put(k, mutableCopy(v)));
+      return copy;
+    }
+    if (value instanceof Collection<?> collection) {
+      List<Object> copy = new ArrayList<>(collection.size());
+      collection.forEach(v -> copy.add(mutableCopy(v)));
+      return copy;
+    }
+    return value;
+  }
+
+  private static Object integersAsLongs(Object value) {
+    if (value instanceof Integer n) return n.longValue();
+    if (value instanceof Map<?, ?> map) {
+      Map<Object, Object> copy = new LinkedHashMap<>();
+      map.forEach((k, v) -> copy.put(k, integersAsLongs(v)));
+      return copy;
+    }
+    if (value instanceof List<?> list) {
+      List<Object> copy = new ArrayList<>(list.size());
+      list.forEach(v -> copy.add(integersAsLongs(v)));
+      return copy;
+    }
+    return value;
   }
 
   @Override
